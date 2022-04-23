@@ -86,7 +86,7 @@ def autograde(opt):
                 [listMonHoc[j]['Mã HP'], listMonHoc[j]['Tên HP'], listMonHoc[j]['Số tín chỉ'], listMonHoc[j]['Điểm QT'],
                  listMonHoc[j]['Điểm thi'], listMonHoc[j]['Điểm chữ']])
 
-    time.sleep(5)
+    time.sleep(10)
     driver.close()
 
 def main():

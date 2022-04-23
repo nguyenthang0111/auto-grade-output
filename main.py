@@ -28,6 +28,8 @@ def autograde(opt):
     # Dung vai giay de nguoi dung nhap captcha
     time.sleep(8)
 
+    #Test
+
     # Tu dong an nut dang nhap
     button = driver.find_element_by_id("ctl00_ctl00_contentPane_MainPanel_MainContent_btLogin")
     ActionChains(driver).move_to_element(button).click(button).perform()
